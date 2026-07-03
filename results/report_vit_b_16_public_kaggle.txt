@@ -1,0 +1,22 @@
+==================================================
+RESULTADOS GLOBALES: VIT_B_16 | DATASET: public_kaggle
+==================================================
+ACCURACY GLOBAL:       93.67%
+MACRO F1-SCORE:        93.51%
+Tiempo de inferencia:  11.64 segundos
+Tiempo medio/batch:    247.75 ms
+==================================================
+
+REPORTE DE CLASIFICACIÓN DETALLADO:
+              precision    recall  f1-score   support
+
+        cups       0.94      0.89      0.91       153
+       forks       0.94      0.95      0.94        76
+       glass       0.86      0.91      0.88       101
+      knives       0.94      0.95      0.95       119
+      plates       0.95      0.97      0.96       160
+      spoons       0.98      0.96      0.97       134
+
+    accuracy                           0.94       743
+   macro avg       0.93      0.94      0.94       743
+weighted avg       0.94      0.94      0.94       743

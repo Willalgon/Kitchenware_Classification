@@ -1,0 +1,22 @@
+==================================================
+RESULTADOS GLOBALES: IMPROVED_ALVARO | DATASET: Kitchenware_Combinado_Splits
+==================================================
+ACCURACY GLOBAL:       47.91%
+MACRO F1-SCORE:        47.07%
+Tiempo de inferencia:  41.54 segundos
+Tiempo medio/batch:    639.09 ms
+==================================================
+
+REPORTE DE CLASIFICACIÓN DETALLADO:
+              precision    recall  f1-score   support
+
+        cups       0.59      0.52      0.55       190
+       forks       0.36      0.26      0.30       153
+     glasses       0.43      0.64      0.52       173
+      knives       0.41      0.50      0.45       169
+      plates       0.78      0.59      0.67       180
+      spoons       0.35      0.31      0.33       164
+
+    accuracy                           0.48      1029
+   macro avg       0.49      0.47      0.47      1029
+weighted avg       0.49      0.48      0.48      1029

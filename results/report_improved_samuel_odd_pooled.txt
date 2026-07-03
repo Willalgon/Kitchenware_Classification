@@ -1,0 +1,22 @@
+==================================================
+RESULTADOS GLOBALES: IMPROVED_SAMUEL | DATASET: odd_pooled
+==================================================
+ACCURACY GLOBAL:       59.47%
+MACRO F1-SCORE:        57.88%
+Tiempo de inferencia:  2.52 segundos
+Tiempo medio/batch:    76.28 ms
+==================================================
+
+REPORTE DE CLASIFICACIÓN DETALLADO:
+              precision    recall  f1-score   support
+
+        cups       0.62      0.68      0.65        97
+       forks       0.49      0.34      0.40        79
+     glasses       0.66      0.66      0.66        90
+      knives       0.49      0.73      0.59        90
+      plates       0.84      0.77      0.80        91
+      spoons       0.43      0.32      0.37        81
+
+    accuracy                           0.59       528
+   macro avg       0.59      0.58      0.58       528
+weighted avg       0.60      0.59      0.59       528

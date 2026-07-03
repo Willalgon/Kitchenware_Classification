@@ -1,0 +1,22 @@
+==================================================
+RESULTADOS GLOBALES: IMPROVED_GUILLE | DATASET: even_pooled
+==================================================
+ACCURACY GLOBAL:       53.80%
+MACRO F1-SCORE:        53.17%
+Tiempo de inferencia:  7.81 segundos
+Tiempo medio/batch:    244.02 ms
+==================================================
+
+REPORTE DE CLASIFICACIÓN DETALLADO:
+              precision    recall  f1-score   support
+
+        cups       0.79      0.68      0.73        93
+       forks       0.36      0.65      0.47        74
+     glasses       0.74      0.47      0.57        83
+      knives       0.33      0.33      0.33        78
+      plates       0.76      0.78      0.77        89
+      spoons       0.37      0.29      0.32        83
+
+    accuracy                           0.54       500
+   macro avg       0.56      0.53      0.53       500
+weighted avg       0.57      0.54      0.54       500

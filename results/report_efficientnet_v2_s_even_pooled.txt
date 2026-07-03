@@ -1,0 +1,22 @@
+==================================================
+RESULTADOS GLOBALES: EFFICIENTNET_V2_S | DATASET: even_pooled
+==================================================
+ACCURACY GLOBAL:       93.80%
+MACRO F1-SCORE:        93.73%
+Tiempo de inferencia:  100.11 segundos
+Tiempo medio/batch:    3128.35 ms
+==================================================
+
+REPORTE DE CLASIFICACIÓN DETALLADO:
+              precision    recall  f1-score   support
+
+        cups       0.97      0.94      0.95        93
+       forks       0.91      0.95      0.93        74
+     glasses       0.91      0.94      0.92        83
+      knives       0.93      0.91      0.92        78
+      plates       0.96      0.96      0.96        89
+      spoons       0.95      0.94      0.95        83
+
+    accuracy                           0.94       500
+   macro avg       0.94      0.94      0.94       500
+weighted avg       0.94      0.94      0.94       500

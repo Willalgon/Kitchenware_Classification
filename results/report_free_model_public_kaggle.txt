@@ -1,0 +1,22 @@
+==================================================
+RESULTADOS GLOBALES: FREE_MODEL | DATASET: public_kaggle
+==================================================
+ACCURACY GLOBAL:       94.08%
+MACRO F1-SCORE:        94.00%
+Tiempo de inferencia:  48.83 segundos
+Tiempo medio/batch:    1038.87 ms
+==================================================
+
+REPORTE DE CLASIFICACIÓN DETALLADO:
+              precision    recall  f1-score   support
+
+        cups       0.89      0.92      0.90       153
+       forks       0.95      0.99      0.97        76
+       glass       0.86      0.82      0.84       101
+      knives       0.99      0.99      0.99       119
+      plates       0.96      0.94      0.95       160
+      spoons       0.99      0.99      0.99       134
+
+    accuracy                           0.94       743
+   macro avg       0.94      0.94      0.94       743
+weighted avg       0.94      0.94      0.94       743

@@ -1,0 +1,22 @@
+==================================================
+RESULTADOS GLOBALES: RESNET50 | DATASET: public_kaggle
+==================================================
+ACCURACY GLOBAL:       90.85%
+MACRO F1-SCORE:        90.57%
+Tiempo de inferencia:  5.89 segundos
+Tiempo medio/batch:    125.40 ms
+==================================================
+
+REPORTE DE CLASIFICACIÓN DETALLADO:
+              precision    recall  f1-score   support
+
+        cups       0.89      0.88      0.88       153
+       forks       0.93      0.91      0.92        76
+       glass       0.86      0.76      0.81       101
+      knives       0.97      0.95      0.96       119
+      plates       0.87      0.97      0.92       160
+      spoons       0.95      0.95      0.95       134
+
+    accuracy                           0.91       743
+   macro avg       0.91      0.90      0.91       743
+weighted avg       0.91      0.91      0.91       743

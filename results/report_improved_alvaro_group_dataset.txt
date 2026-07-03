@@ -1,0 +1,22 @@
+==================================================
+RESULTADOS GLOBALES: IMPROVED_ALVARO | DATASET: group_dataset
+==================================================
+ACCURACY GLOBAL:       56.12%
+MACRO F1-SCORE:        55.04%
+Tiempo de inferencia:  1.43 segundos
+Tiempo medio/batch:    204.84 ms
+==================================================
+
+REPORTE DE CLASIFICACIÓN DETALLADO:
+              precision    recall  f1-score   support
+
+        cups       0.73      0.47      0.57        17
+       forks       0.58      0.44      0.50        16
+     glasses       0.92      0.80      0.86        15
+      knives       0.48      0.73      0.58        15
+      plates       0.54      0.83      0.65        18
+      spoons       0.18      0.12      0.14        17
+
+    accuracy                           0.56        98
+   macro avg       0.57      0.57      0.55        98
+weighted avg       0.57      0.56      0.55        98

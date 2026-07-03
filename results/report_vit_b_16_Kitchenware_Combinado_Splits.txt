@@ -1,0 +1,22 @@
+==================================================
+RESULTADOS GLOBALES: VIT_B_16 | DATASET: Kitchenware_Combinado_Splits
+==================================================
+ACCURACY GLOBAL:       93.59%
+MACRO F1-SCORE:        93.57%
+Tiempo de inferencia:  166.28 segundos
+Tiempo medio/batch:    2558.15 ms
+==================================================
+
+REPORTE DE CLASIFICACIÓN DETALLADO:
+              precision    recall  f1-score   support
+
+        cups       0.93      0.94      0.93       190
+       forks       0.93      0.92      0.93       153
+     glasses       0.94      0.88      0.91       173
+      knives       0.93      0.96      0.94       169
+      plates       0.94      0.96      0.95       180
+      spoons       0.95      0.95      0.95       164
+
+    accuracy                           0.94      1029
+   macro avg       0.94      0.94      0.94      1029
+weighted avg       0.94      0.94      0.94      1029

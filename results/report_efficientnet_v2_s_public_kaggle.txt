@@ -1,0 +1,22 @@
+==================================================
+RESULTADOS GLOBALES: EFFICIENTNET_V2_S | DATASET: public_kaggle
+==================================================
+ACCURACY GLOBAL:       92.60%
+MACRO F1-SCORE:        92.64%
+Tiempo de inferencia:  12.05 segundos
+Tiempo medio/batch:    256.29 ms
+==================================================
+
+REPORTE DE CLASIFICACIÓN DETALLADO:
+              precision    recall  f1-score   support
+
+        cups       0.94      0.87      0.90       153
+       forks       0.91      0.97      0.94        76
+       glass       0.86      0.87      0.87       101
+      knives       0.97      0.96      0.97       119
+      plates       0.88      0.96      0.92       160
+      spoons       0.99      0.93      0.96       134
+
+    accuracy                           0.93       743
+   macro avg       0.93      0.93      0.93       743
+weighted avg       0.93      0.93      0.93       743

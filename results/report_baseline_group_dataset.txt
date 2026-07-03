@@ -1,0 +1,22 @@
+==================================================
+RESULTADOS GLOBALES: BASELINE | DATASET: group_dataset
+==================================================
+ACCURACY GLOBAL:       46.94%
+MACRO F1-SCORE:        45.77%
+Tiempo de inferencia:  1.02 segundos
+Tiempo medio/batch:    145.03 ms
+==================================================
+
+REPORTE DE CLASIFICACIÓN DETALLADO:
+              precision    recall  f1-score   support
+
+        cups       0.65      0.65      0.65        17
+       forks       0.50      0.44      0.47        16
+     glasses       0.59      0.87      0.70        15
+      knives       0.20      0.27      0.23        15
+      plates       0.50      0.44      0.47        18
+      spoons       0.33      0.18      0.23        17
+
+    accuracy                           0.47        98
+   macro avg       0.46      0.47      0.46        98
+weighted avg       0.46      0.47      0.46        98

@@ -1,0 +1,17 @@
+# Carpetas pesadas e imágenes crudas
+datasets/
+
+# Archivos zip pesados residuales
+*.zip
+*.tar.gz
+
+# Pesos de los modelos entrenados (los .pth ocupan cientos de MB)
+src/saved_models/
+*.pth
+
+# Basura de Python y entornos
+__pycache__/
+*.pyc
+.idea/
+.vscode/
+.ipynb_checkpoints/

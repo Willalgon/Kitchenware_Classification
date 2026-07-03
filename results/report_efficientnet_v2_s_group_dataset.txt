@@ -1,0 +1,22 @@
+==================================================
+RESULTADOS GLOBALES: EFFICIENTNET_V2_S | DATASET: group_dataset
+==================================================
+ACCURACY GLOBAL:       85.71%
+MACRO F1-SCORE:        85.04%
+Tiempo de inferencia:  0.87 segundos
+Tiempo medio/batch:    123.78 ms
+==================================================
+
+REPORTE DE CLASIFICACIÓN DETALLADO:
+              precision    recall  f1-score   support
+
+        cups       0.85      1.00      0.92        17
+       forks       0.85      0.69      0.76        16
+     glasses       0.92      0.80      0.86        15
+      knives       0.79      0.73      0.76        15
+      plates       0.85      0.94      0.89        18
+      spoons       0.89      0.94      0.91        17
+
+    accuracy                           0.86        98
+   macro avg       0.86      0.85      0.85        98
+weighted avg       0.86      0.86      0.85        98

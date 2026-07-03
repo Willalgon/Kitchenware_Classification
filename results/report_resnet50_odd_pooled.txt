@@ -1,0 +1,22 @@
+==================================================
+RESULTADOS GLOBALES: RESNET50 | DATASET: odd_pooled
+==================================================
+ACCURACY GLOBAL:       85.98%
+MACRO F1-SCORE:        85.87%
+Tiempo de inferencia:  30.53 segundos
+Tiempo medio/batch:    925.24 ms
+==================================================
+
+REPORTE DE CLASIFICACIÓN DETALLADO:
+              precision    recall  f1-score   support
+
+        cups       0.89      0.82      0.86        97
+       forks       0.80      0.81      0.81        79
+     glasses       0.93      0.89      0.91        90
+      knives       0.82      0.86      0.84        90
+      plates       0.83      0.95      0.89        91
+      spoons       0.89      0.83      0.86        81
+
+    accuracy                           0.86       528
+   macro avg       0.86      0.86      0.86       528
+weighted avg       0.86      0.86      0.86       528

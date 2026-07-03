@@ -1,0 +1,22 @@
+==================================================
+RESULTADOS GLOBALES: IMPROVED_SAMUEL | DATASET: Kitchenware_Kaggle_Ordenado
+==================================================
+ACCURACY GLOBAL:       74.83%
+MACRO F1-SCORE:        73.98%
+Tiempo de inferencia:  27.85 segundos
+Tiempo medio/batch:    592.57 ms
+==================================================
+
+REPORTE DE CLASIFICACIÓN DETALLADO:
+              precision    recall  f1-score   support
+
+        cups       0.69      0.79      0.74       153
+       forks       0.90      0.62      0.73        76
+       glass       0.71      0.61      0.66       101
+      knives       0.64      0.74      0.69       119
+      plates       0.90      0.83      0.87       160
+      spoons       0.73      0.78      0.76       134
+
+    accuracy                           0.75       743
+   macro avg       0.76      0.73      0.74       743
+weighted avg       0.76      0.75      0.75       743

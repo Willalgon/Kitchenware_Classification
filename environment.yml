@@ -1,0 +1,17 @@
+name: AAA_Kitchenware_Class
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - pytorch
+  - torchvision
+  - torchaudio
+  - scikit-learn
+  - matplotlib
+  - pandas
+  - tqdm
+  - pip
+  - pip:
+      - focal-loss
